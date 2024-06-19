@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#body{
+    background-image: url(background.png);
+}
+#container{
+    text-align: center;
+    color: #fff;
+    width: 500px;
+
+    border-radius: 10px;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 45px;
+    background: #101820;
+    box-shadow:  30px 30px 60px #000000;
+}
+/* ----------------------------------------------------------------------------- */
+#titulo{
+    margin: 15px 0px;
+    text-align: center;
+}
+/* ----------------------------------------------------------------------------- */
+#slider{
+    -webkit-appearance: none;
+
+    width: 70%;
+    height: 10px;
+
+    background: #ffffff;
+
+    outline: none;
+    -webkit-transition: .2s; /* Transição para WebKit */
+    transition: opacity .2s;
+
+    border-radius: 15px;
+
+    margin: 15px 0px;
+    
+}
+/* ----------------------------------------------------------------------------- */
+#button{
+    cursor: pointer;
+
+    width: 125px;
+    background-color: #fafafa;
+    color: #000;
+
+    border: none;
+    border-radius: 10px;
+    
+    font-size: 15px;
+    font-weight: bold;
+    
+    padding: 10px 15px;
+    margin: 15px 10px;
+}
+#button:hover {
+    scale: 1.01;
+    transition: all 0.1s ease-in-out;
+    background-color: #101820;
+    border: 2px solid #fafafa;
+    color: #fff;
+}
+/* ----------------------------------------------------------------------------- */
+.title{
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+/* ----------------------------------------------------------------------------- */
+.tooltip{
+    position: relative;
+    top: 20%;
+    padding: 6px 8px;
+    text-align: center;
+    font-size: 16px;
+    visibility: hidden;
+}
+/* ----------------------------------------------------------------------------- */
+.hide{
+    display: none;
+}
+#container-password:hover .tooltip{
+    visibility: visible;
+}
+#password{
+    display: inline-block;
+    width: 50%;
+    padding: 5px;
+    background-color: #274360;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+/* ----------------------------------------------------------------------------- */
